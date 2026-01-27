@@ -1,3 +1,3 @@
 <?php
-echo "Hello from LAMP Pipeline  Anujs"; 
+echo "Hello from LAMP Pipeline"; 
 ?>
