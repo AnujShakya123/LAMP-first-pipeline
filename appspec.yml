@@ -1,17 +1,12 @@
 version: 0.0
 os: linux
+
 files:
   - source: /
     destination: /var/www/html
+
 hooks:
   AfterInstall:
     - location: scripts/deploy.sh
       timeout: 300
       runas: root
-
-======CMD======
-cd /var/www/html
-git pull origin main
-sudo systemctl restart httpd
-
-======END======
