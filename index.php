@@ -1,3 +1,3 @@
 <?php
-echo "Hello from LAMP Pipeline 1223"; 
+echo "Hello from LAMP Pipeline"; 
 ?>
